@@ -1,83 +1,27 @@
-.central-container {
-  text-align: center;
-  padding: 40px;
-}
-
-.profile-section {
+.welcome {
+  margin: auto;
   display: flex;
   flex-direction: column;
-  align-items: center;
-}
-
-.profile-logo {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  margin-bottom: 20px;
-  transition: box-shadow 0.3s ease, transform 0.3s ease;
-}
-
-.profile-logo:hover {
-  box-shadow: 0 0 15px rgba(162, 141, 246, 0.6);
-  transform: scale(1.1);
-}
-
-.highlight {
-  color: #a28df6;
-}
-
-.status-badge {
-  display: flex;
-  align-items: center;
   justify-content: center;
-  background-color: #2e2e2e;
-  border-radius: 20px;
-  padding: 5px 15px;
-  margin: 10px 0;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  height: 70%;
+  width: 50%;
+  z-index: 2;
 }
 
-.status-indicator {
-  width: 10px;
-  height: 10px;
+.welcome-selfpic {
+  z-index: 2;
+  width: 300px;
+  height: 300px;
   border-radius: 50%;
-  background-color: rgb(255, 98, 98);
-  margin-right: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  filter: grayscale(60%);
+  transition: filter 0.8s, scale 0.8s;
 }
-
-.social-icons {
-  display: flex;
-  justify-content: center;
-  gap: 15px;
-  margin-top: 20px;
-}
-
-.social-icons a {
-  text-decoration: none;
-  color: #ffffff;
-}
-
-.social-icons i {
-  font-size: 24px;
-  color: #ffffff;
-  cursor: pointer;
-  transition: color 0.3s ease;
-}
-
-.social-icons i:hover {
-  color: #a28df6;
-}
-
-.projects {
-  margin-top: 30px;
-}
-
-.project-link {
-  text-decoration: underline;
-  color: #a28df6;
-  margin-left: 5px;
-}
-
-.project-link:hover {
-  color: #ffffff;
+.welcome-selfpic:hover {
+  filter: grayscale(0%);
+  filter: brightness(1.1);
+  transition-duration: 0.8s;
+  scale: 1.1;
+  box-shadow: 0 0 10px 5px var(--highlight2);
 }/*# sourceMappingURL=styles.css.map */
