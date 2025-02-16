@@ -7,11 +7,15 @@
     <link rel="stylesheet" href="styles.css" />
     <!-- Favicon hinzufügen -->
     <link rel="icon" href="assets/favicon.ico" type="image/x-icon" />
-    <!-- FontAwesome für Icons -->
+    <!-- FontAwesome und Devicons für Icons -->
     <script
-      src="https://kit.fontawesome.com/a076d05399.js"
+      src="https://kit.fontawesome.com/b49f77e891.js"
       crossorigin="anonymous"
     ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
   </head>
   <body>
     <div class="central-container">
@@ -22,48 +26,87 @@
           class="profile-logo"
         />
         <h1>Hey, I'm <span class="highlight">Kilian</span>!</h1>
-        <p>stay weird. be unique.</p>
+        <p class="main-text">„stay weird. be unique.“</p>
+        <p class="subtitle">
+          IT Specialist Trainee in System Integration
+        </p>
         <div class="status-badge">
           <div class="status-indicator online"></div>
           <span>working</span>
         </div>
         <div class="social-icons">
           <a href="mailto:hey@einkilian.me" target="_blank"
-            ><i class="fas fa-envelope"></i
-          ></a>
-          <a href="https://discord.com/users/354007823157297153" target="_blank"
-            ><i class="fab fa-discord"></i
-          ></a>
-          <a href="https://github.com/EinKilian" target="_blank"
-            ><i class="fab fa-github"></i
-          ></a>
-          <a href="https://instagram.com/ein.kilian" target="_blank"
-            ><i class="fab fa-instagram"></i
-          ></a>
-          <a href="https://tiktok.com/@yeinkilian" target="_blank"
-            ><i class="fab fa-tiktok"></i
-          ></a>
-          <a href="https://twitter.com/EinKilian_" target="_blank"
-            ><i class="fab fa-twitter"></i
-          ></a>
-          <a href="https://youtube.com/channel/@kilian1493" target="_blank"
-            ><i class="fab fa-youtube"></i
-          ></a>
-          <a href="https://twitch.tv/EinKilian_" target="_blank"
-            ><i class="fab fa-twitch"></i
-          ></a>
-          <a href="https://pinterest.com/einkilian" target="_blank"
-            ><i class="fab fa-pinterest"></i
-          ></a>
+          ><i class="fas fa-envelope"></i
+        ></a>
+        <a href="https://discord.com/users/354007823157297153" target="_blank"
+          ><i class="fab fa-discord"></i
+        ></a>
+        <a href="https://github.com/EinKilian" target="_blank"
+          ><i class="fab fa-github"></i
+        ></a>
+        <a href="https://instagram.com/ein.kilian" target="_blank"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a href="https://tiktok.com/@yeinkilian" target="_blank"
+          ><i class="fab fa-tiktok"></i
+        ></a>
+        <a href="https://twitter.com/EinKilian_" target="_blank"
+          ><i class="fab fa-twitter"></i
+        ></a>
+        <a href="https://youtube.com/channel/@kilian1493" target="_blank"
+          ><i class="fab fa-youtube"></i
+        ></a>
+        <a href="https://twitch.tv/EinKilian_" target="_blank"
+          ><i class="fab fa-twitch"></i
+        ></a>
+        <a href="https://pinterest.com/einkilian" target="_blank"
+          ><i class="fab fa-pinterest"></i
+        ></a>
+      </div>
         </div>
-        <div class="projects">
-          <span>Projects:</span>
-          <a href="https://triostate.net/" class="project-link" target="_blank"
-            >TrioState</a
-          >,
-          <a href="https://fazelife.de/" class="project-link" target="_blank"
-            >FazeLife</a
-          >
+
+        <!-- Projektüberschrift -->
+        <h2 class="projects-heading">Projects</h2>
+
+        <!-- Project cards -->
+        <div class="project-cards">
+          <!-- Projektkarte 1 -->
+
+          <a href="https://triostate.net" target="_blank" class="project-card">
+            <img
+              src="assets/triostate.png"
+              alt="TrioState"
+              class="project-image"
+            />
+            <h2 class="project-title">TrioState</h2>
+            <p class="project-description">
+              One project. Three states. Endless possibilities.
+            </p>
+            <div class="project-icons">
+              <i class="devicon-lua-plain"></i>
+              <i class="fab fa-js"></i>
+              <i class="fab fa-html5"></i>
+              <i class="fab fa-css3-alt"></i>
+              <i class="fab fa-react"></i>
+              <i class="fab fa-node"></i>
+            </div>
+            <p class="project-date">Joined: Dezember 2022</p>
+          </a>
+
+          <!-- Projektkarte 2 -->
+          <a href="https://fazelife.de" target="_blank" class="project-card">
+            <img
+              src="assets/fazelife.png"
+              alt="FazeLife"
+              class="project-image"
+            />
+            <h2 class="project-title">FazeLife</h2>
+            <p class="project-description">soon</p>
+            <div class="project-icons">
+              <i class="devicon-lua-plain"></i>
+            </div>
+            <p class="project-date">Joined: Juny 2024</p>
+          </a>
         </div>
       </div>
     </div>
