@@ -1,0 +1,20 @@
+:root {
+    --layer-0: #1e1e1e;
+    --layer-1: #2e2e2e;
+    --layer-2: #3e3e3e;
+    --layer-3: #4e4e4e;
+    --layer-4: #5e5e5e;
+    --highlight: #a28df6;
+}
+
+body {
+    background-color: var(--layer-0);
+    color: #ffffff;
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
